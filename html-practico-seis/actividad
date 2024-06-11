@@ -1,0 +1,29 @@
+Desafío: Landing Page Para Un Fotógrafo
+En este ejercicio deberás hacer una página web para un fotógrafo, aplicando todo lo aprendido hasta acá.
+Seguí estos pasos:
+Creá un HTML y un CSS y vinculalos.
+Dentro del body creá un div con id=container.
+En CSS, dale al id=container un width del 80% y un margin 0 auto para centrarlo.
+Dentro del div, creá 9 imágenes con tags <img>.
+Pista : Cómo conseguir imágenes de buena calidad que sean libres de derechos.
+Buscá imágenes en sitios como pexels.com o unsplash.com, que tienen muchísimas imágenes en alta calidad y libres de derechos.
+Importante: elegí imágenes que tengan un tamaño en pixeles similar y una misma orientación.
+En CSS, seleccioná las imágenes y dales un width de 30% y un margin de 1.4%.
+
+Agregale un título a tu web usando el tag <h1>.
+En CSS:
+Seleccionalo y dale un margin left igual al de las imágenes (así están alineados).
+Ajustale el font-size a 40px.
+Cambiale la tipografía usando los recursos de Google Fonts.
+Poné todo el título en mayúsculas usando solo CSS.
+Subrayalo con un border-bottom de 2px color rojo.
+Si la línea roja es demasiado larga, dale al <h1> un width de 50% y, desde el Inspector de Chrome, modificalo hasta que la línea llegue al ancho del texto. Usá ese valor de width en el CSS para que quede implementado.
+Separalo del borde de abajo usando padding. Modificá únicamente el espacio entre el texto y la línea, no los 4 costados.
+Pista: Cómo incluir una tipografía de Google Fonts.
+Entrá en Google Fonts.
+Elegí una tipografía (podés descargarla o copiar el código para insertarlo).
+Incluila con el link tag dentro del head del HTML.
+En CSS, cambiale la tipografía al <body> por la que acabás de traer.
+Extra Credit
+Vinculá cada imagen con una página externa. Puede ser otra otra página creada por vos o por un tercero.
+Agregá un link de contacto con la información del fotógrafo. Puede redireccionar a otra página con su información o ser un tag <a> que use mailto:....

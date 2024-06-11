@@ -1,0 +1,68 @@
+Proyecto – Tu portfolio
+
+Objetivo
+Como primer proyecto de portfolio, codearás una Single-page application (en español, una web de una sola página). Este tipo de sitios se puso de moda en los últimos años por su fácil navegabilidad.
+El objetivo es que muestres, en un mismo sitio, todos los proyectos entregables de tu curso.
+Para hacerlo, usarás Bootstrap en su versión 5.1. Esto te permitirá codear más rápido y asegurarte una base estética.
+También escribirás código CSS para personalizarlo con tu propio estilo.
+Estructura General
+Tu sitio estará compuesto por varios elementos:
+Una barra de navegación.
+Un encabezado con tu nombre y tu foto.
+Una sección de "Portfolio".
+Una sección "Acerca de mí".
+Una sección de "Contacto".
+Un footer (en español, un pie de página) con tus datos personales y el Copyright.
+Veamos un ejemplo de este proyecto:
+
+
+
+
+
+Menú O Barra De Navegación
+Para empezar con tu proyecto, lo primero que crearás es el Menú o Barra de Navegación (en inglés, Navbar).
+Importante: no confundas Navbar con Navs&tabs. Para utilizar correctamente Navbar hacé click acá.
+Deberá tener tu nombre y los de las diferentes secciones: Portfolio, Acerca de mí y Contacto.
+Veamos cómo debe quedar:
+
+Deberás personalizarla con los estilos que mejor se adapten a tu sitio.
+
+
+Encabezado
+El encabezado de tu sitio deberá llevar tu nombre, una foto o ilustración que te represente y el rol con el que quieras presentarte.
+
+
+Portfolio
+Esta sección será la vidriera de tus proyectos de desarrollo web. Por el momento, usarás imágenes provisorias. Una vez que tengas tus 3 páginas terminadas, podrás actualizarlo.
+Veamos un ejemplo:
+
+
+
+
+
+Requisitos:
+Deberá tener un div class container con 1 row y 3 col.
+Deberás separar los bordes de la sección de su contenido usando padding.
+Las imágenes deberán estar estilizadas. Para eso, editá el CSS y generá el estilo esperado (por ejemplo, los bordes redondeados).
+Acerca De Mí
+En esta sección deberás contar un poco acerca de tu perfil profesional.
+Veamos un ejemplo:
+
+
+
+Esta sección es muy sencilla. Se trata de un <h2>, seguido por un <hr> y, debajo, un <p>.
+
+Contacto
+En esta sección aplicarás todo lo aprendido acerca de los formularios. El objetivo es que puedan contactarte de manera sencilla.
+Veamos un ejemplo de los datos básicos que debe tener:
+
+
+Footer Y Copyright
+En esta sección pondrás tus datos de contacto y las redes sociales que más usás. También deberás incluir la leyenda "Derechos de autor" (en inglés Copyright) y la fecha en la que creaste este sitio.
+Veamos un ejemplo:
+
+
+Investigá cómo incorporar los íconos de las redes sociales.
+Vista Responsive
+Antes de terminar corroborá que tu sitio se vea correctamente en todos los dispositivos.
+Si ya terminaste, ¡felicitaciones! 

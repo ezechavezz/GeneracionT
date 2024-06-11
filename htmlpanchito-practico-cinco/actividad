@@ -1,0 +1,11 @@
+Arte CSS: Panchito
+En este ejercicio, incursionarás en el mundo del arte CSS creando un rico Panchito. ¡Manos a la obra!
+
+
+Para hacerlo, seguí estos pasos:
+Creá 3 etiquetas div.
+Dale un ancho, un alto y un color de fondo a cada div para verlos en pantalla.
+
+Redondeá y coloreá los bordes de todos los divs usando las propiedades border-radius, border-bottom y border-top.
+Centrá a todos los divs usando margin: 0px auto;.
+¡Felicitaciones! ¡Creaste tu primer diseño en CSS!

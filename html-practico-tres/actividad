@@ -1,0 +1,65 @@
+Ejercicio Con Un Archivo .css Externo
+1 - Ejercicio Con El Atributo <style>
+En este ejercicio, deberás crear un documento HTML nuevo y escribir el siguiente bloque de código:
+
+2 - Ejercicio Con El Tag <style>
+Ahora, deberás refactorizar el código CSS del ejercicio anterior usando el tag <style>.
+Para hacerlo:
+Creá un tag <style> dentro del <head> del documento HTML.
+Para cada elemento HTML, copiá las reglas CSS que están dentro de "style=..." del ejercicio anterior.
+Ahora, reescribilas dentro de <style> usando el formato que vimos al principio de esta unidad.
+
+3 - Ejercicio Con Un Archivo .css Externo
+Ahora deberás pasar el código CSS del ejercicio anterior a un archivo CSS para traerlo usando el tag <link>.
+Para hacerlo:
+Creá un archivo nuevo y guardalo en la misma carpeta donde está tu archivo HTML. Llamalo "mis_estilos.css" (prestá especial atención a que la extensión sea .css).
+No pongas nada de HTML en "mis_estilos.css".
+Luego, escribí las reglas CSS que tenías definidas en el ejercicio anterior.
+⚠ Importante: No deberás incluir el tag style, solo las reglas CSS.
+
+
+
+
+
+
+
+
+PARTE 2: Ejercicio Star Wars
+En este ejercicio deberás aplicarle CSS a una página HTML creada por nosotros. ¡Que la Fuerza te acompañe!
+Para hacerlo, seguí estos pasos:
+1 – Ingresar al drive en actividades
+2 – descargar el startwars.html
+Ahora, enfocate en el CSS:
+Creá una class para el Imperio (los malos) que les genere un background-color red. En el HTML, asignásela a cada uno de ellos en los opening tags de sus <li>.
+Hacé lo mismo para los Rebeldes, pero con un background-color blue.
+Creá un id para Darth Vader que aumente el tamaño de la letra de su nombre y un id para Luke que lo ponga en itálica.
+Creá una class para los Soldados que les defina un borde a rayas usando la propiedad border. Además, aumentá el espacio entre sus letras, usando letter-spacing. 🔍 Buscá en Google qué valores podés darle a la propiedad border.
+Modificá la class Apoyo (definida por nosotros en el documento HTML) y centrá los elementos con la propiedad text-align.
+Creá una class para las Naves y poné todas las letras de sus nombres en mayúscula.
+Agregale a los Droides un estilo para que las imágenes queden centradas.
+
+
+Ejercicio 2 Parque Jurásico
+En este ejercicio vas a sumergirte en el mundo de los dinosaurios, aplicando CSS a una página HTML dedicada a un parque temático de dinosaurios. ¡Prepárate para una aventura prehistórica!
+Instrucciones para el Ejercicio
+Descarga el HTML: Primero, descarga el archivo dinopark.html que contiene la estructura básica de un sitio web sobre un parque de dinosaurios.
+Aplicación de CSS: Ahora, enfócate en personalizar el diseño con CSS siguiendo las especificaciones dadas:
+Detalles del CSS a Implementar
+Clase Carnívoros:
+Crea una clase para los dinosaurios carnívoros que les asigne un background-color de color rojo oscuro.
+En el HTML, asigna esta clase a cada uno de los carnívoros en los opening tags de sus <li>.
+Clase Herbívoros:
+Haz lo mismo para los herbívoros, pero con un background-color verde claro.
+ID para el T-Rex:
+Crea un ID para el Tyrannosaurus Rex que aumente el tamaño de la fuente a 24px y le de un color de fuente más llamativo.
+ID para el Triceratops:
+Asigna un ID al Triceratops que ponga su nombre en negrita y subrayado.
+Clase Voladores:
+Define una clase para los dinosaurios voladores que añada una sombra de texto para dar un efecto de elevación.
+Clase Acuáticos:
+
+Establece una clase para los dinosaurios acuáticos que ponga las letras de sus nombres en cursiva y les dé un color de texto azul.
+Modificación de la clase Guías (definida en el documento HTML):
+Centra los nombres de los guías turísticos usando text-align: center; y cambia el color del texto a marrón.
+Clase Atracciones:
+Para las atracciones del parque, crea una clase que aumente el espacio entre las letras (letter-spacing) y defina un borde decorativo.

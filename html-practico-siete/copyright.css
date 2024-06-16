@@ -1,0 +1,25 @@
+footer {
+    background-color: rgb(0, 0, 0); /* Fondo gris claro */
+    color: #333; /* Texto oscuro */
+    text-align: center;
+    padding: 20px 0;
+}
+  
+  /* Estilos para los enlaces en el pie de página */
+footer a {
+    color: #333; /* Color de los enlaces */
+    text-decoration: none;
+    margin: 0 10px;
+}
+.redes-sociales a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+}
+#text-p{
+    color: white;
+}
+.redes-sociales a:hover{
+    color: gold;
+}

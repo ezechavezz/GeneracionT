@@ -1,0 +1,60 @@
+.colorbody{
+    background-color: rgb(255, 109, 4);
+}
+.container1{
+    background-color: black;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    background-color: white;
+    text-decoration: none;
+    height: 50px;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.logo img:hover{
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: gold;
+}
+.nombre{
+    text-decoration: none;
+    color: white;
+    transition: color 0.8s ease;
+    padding: 10px;
+}
+.nombre:hover{
+    color: gold;
+    transform: scale(1.1);
+}
+@media (min-width:600px){
+    .container1{
+        flex-direction: row;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}

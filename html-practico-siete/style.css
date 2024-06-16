@@ -1,5 +1,6 @@
 .colorbody{
-    background-color: rgb(255, 109, 4);
+    /* background-color: rgb(255, 109, 4); */
+    background-image: linear-gradient(to left, rgb(241, 111, 25),rgb(255, 109, 4), rgb(252, 66, 66) );
 }
 .container1{
     background-color: black;
@@ -53,6 +54,8 @@ nav a:hover{
 @media (min-width:600px){
     .container1{
         flex-direction: row;
+        justify-content: space-around;
+        padding:0 auto;
     }
     nav{
         padding: 10px 0px;

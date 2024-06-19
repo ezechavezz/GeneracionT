@@ -47,7 +47,7 @@ Preguntale al usuario su edad.
 Si no recordás como hacerlo, probá con lo siguiente:
 
 Calculá cuántos días representa. Por ejemplo: Si tiene 28 años, serán 10.220 días.
- Para este ejercicio, considerá que un año tiene 365 días. No consideres el año bisiesto.
+Para este ejercicio, considerá que un año tiene 365 días. No consideres el año bisiesto.
 Mostrá la respuesta al usuario.
 Suma De Valores
 Creá 3 Variables:

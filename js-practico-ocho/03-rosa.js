@@ -12,7 +12,6 @@
 let diasViaje = 7;
 let presComida = 1000; //dolares
 let comida = 4; //4 comidas por dia
-
 let totalComidas = diasViaje * comida;
 let plataPorComida = presComida / totalComidas;
 

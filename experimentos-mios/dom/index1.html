@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Delegación de Eventos</title>
+</head>
+<body>
+  <ul id="miLista">
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+
+  <script>
+    const lista = document.getElementById('miLista');
+
+    // Agregar un manejador de eventos al elemento padre
+    lista.addEventListener('click', function(event) {
+      if (event.target.tagName === 'LI') {
+        alert(`Hiciste clic en: ${event.target.textContent}`);
+      }
+    });
+  </script>
+</body>
+</html>

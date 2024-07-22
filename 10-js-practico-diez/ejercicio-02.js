@@ -11,3 +11,11 @@ console.log(capitales['lugar']);
 console.log(capitales.lugar);
 
 console.log(capitales[lugar]);
+
+//A
+
+console.log(capitales['Argentina']);
+
+console.log(capitales.Argentina);
+
+console.log(capitales[Argentina]);

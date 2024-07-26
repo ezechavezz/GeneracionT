@@ -1,0 +1,5 @@
+.resaltado{
+    background-color: yellow; /*fondo amarillo*/ 
+    color: red; /* letras rojas*/
+    font-size: 20px; /*mas grande las letras*/
+}

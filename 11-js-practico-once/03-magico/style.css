@@ -1,0 +1,14 @@
+#magia{
+    padding: 32px;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+body{
+    background-color: gray; /* te pongo el fondo oscuro por el bien de tus ojitos */
+}
+header{
+    text-align: center;
+    text-decoration: underline;
+}

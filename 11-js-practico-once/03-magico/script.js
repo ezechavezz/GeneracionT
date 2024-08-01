@@ -1,6 +1,10 @@
-const magiaImg = document.getElementById("magia");
-const loboSolitario = magiaImg.querySelector('img');
+const magiaDiv = document.getElementById('magia');
+const image = magiaDiv.querySelector('img');
 
-magiaImg.addEventListener('mouseenter', function() {
+magiaDiv.addEventListener('mouseenter', function() {
     image.style.display = 'none';
+});
+
+magiaDiv.addEventListener('mouseleave', function() {
+    image.style.display = 'block';
 });

@@ -1,6 +1,12 @@
-#magia{
-    padding: 32px;
-    text-align: center;
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 32px;
+    /* border: 1px solid black; */
+    height: auto;
+    width: auto;
 }
 img{
     border-radius: 10px;

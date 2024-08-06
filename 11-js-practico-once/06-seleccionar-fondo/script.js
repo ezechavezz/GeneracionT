@@ -8,8 +8,8 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     const colorInput = document.getElementById("colorInput");
-    const colorsIngles = ["red", "blue", "yellow", "black", "green", "orange", "pink", "violet"];
-    const colorsEspaniol = ["rojo", "azul", "amarillo", "verde"];
+    const colorIngles = ["red", "blue", "yellow", "black", "green", "orange", "pink", "violet"];
+    const colorEspaniol = ["rojo", "azul", "amarillo", "verde"];
     const colorMap = {
         rojo: "red",
         azul: "blue",
@@ -21,15 +21,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const inputColor = colorInput.value.trim().toLowerCase();
 
         if (event.key === "Enter") {
-            for (let i = 0; i < colorsIngles.length; i++) {
-                if (inputColor === colorsIngles[i]) {
+            for (let i = 0; i < colorIngles.length; i++) {
+                if (inputColor === colorIngles[i]) {
                     document.body.style.backgroundColor = inputColor;
                     return;
                 }
             }
 
-            for (let i = 0; i < colorsEspaniol.length; i++) {
-                if (inputColor === colorsEspaniol[i]) {
+            for (let i = 0; i < colorEspaniol.length; i++) {
+                if (inputColor === colorEspaniol[i]) {
                     document.body.style.backgroundColor = colorMap[inputColor];
                     return;
                 }

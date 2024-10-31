@@ -1,0 +1,36 @@
+.ui.items>.item{
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 10px;
+  padding: 5px;
+  width: auto;
+  transition: 2s;
+  font-size: 2vh;
+  margin: 10px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.items:not(.unstackable)>.item {
+      margin: 10px;
+      border-radius: 8px;
+  }
+}
+
+.text-dark {
+  color: #000 ;
+}
+
+.text-light {
+  color: #fff !important;
+}
+
+.bg-dark {
+  background-color: #333 ;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.text{
+  transition: 2s;
+}
